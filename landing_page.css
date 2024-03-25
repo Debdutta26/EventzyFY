@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    background-image:linear-gradient(135deg, #0056b3 0%, #764ba2 100%);
+}
+.logo{
+    font-weight: bolder;
+    font-size: 30px;
+}
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        margin: 10px 0;
+    }
+}
+.navbar-brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bolder;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    padding: 20px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width: 1200px;
+}
+
+.text-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    color: white;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-image: linear-gradient(135deg, #0056b3 0%, #764ba2 100%);
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 15px;
+}

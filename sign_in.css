@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: rgb(255, 255, 255);
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+.login-form .form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.login-form .form-control label {
+    display: block;
+    margin-bottom: 10px;
+    color: #606f7b;
+    font-weight: 500;
+}
+
+.login-form .form-control input {
+    width: calc(100% - 20px);
+    padding: 15px 10px;
+    border: 2px solid rgb(153, 153, 153);
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-form .form-control input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+button {
+    width: 100%;
+    padding: 15px 10px;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    background-image: linear-gradient(135deg, #7467ef 0%, #8453a4 100%);
+}
+
+.message {
+    margin-top: 25px;
+    color: #000000;
+}
+
+.message a {
+    color: #7467ef;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.message a:hover {
+    color: #6f67ff;
+    text-decoration: underline;
+}
